@@ -1,0 +1,268 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body 
+{
+	background-image: url("../image/travel.jpg");
+	background-size:cover;
+	background-position: center;
+	font-family: sans-serif;
+	margin-top: 40px;
+}
+
+.Travel-form
+{
+	width: 800px;
+	background-color: rgb(0,0,0,0.6);
+	margin:auto;
+	color: #FFFFFF;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.main
+{
+	background-color: rgb(0,0,0,0.5);
+	width: 800px;
+	margin: auto;
+}
+
+form
+{
+	padding: 10px;
+}
+
+
+.name
+{
+	margin-left:25px;
+	margin-top:30px;
+	width:145px;
+	color:white;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.fullname
+{
+	position: relative;
+	left: 200px;
+	top: -37px;
+	line-height: 40px;
+	width: 300px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+
+.fullnamelabel
+{
+	position:relative;
+	color: #E5E5E5;
+	text-transform: capitalize;
+	font-size: 14px;
+	left: -150px;
+	top: -5px;
+}
+
+.email
+{
+	position: relative;
+	left: 200px;
+	top: -30px;
+	line-height: 40px;
+	width: 450px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+
+.phone
+{
+	position: relative;
+	left: 200px;
+	top: -30px;
+	line-height: 40px;
+	width: 400px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+
+.nooftravellers
+{
+	position: relative;
+	left: 200px;
+	top: -30px;
+	line-height: 40px;
+	width: 200px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+
+.origincity
+{
+	position: relative;
+	left: 200px;
+	top: -30px;
+	line-height: 40px;
+	width: 200px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+
+.destinationcity
+{
+	position: relative;
+	left: 200px;
+	top: -30px;
+	line-height: 40px;
+	width: 200px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+
+.traveldate
+{
+	position: relative;
+	left: 200px;
+	top: -30px;
+	line-height: 40px;
+	width: 200px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+
+.option
+{
+	position: relative;
+	left: 200px;
+	top: -30px;
+	line-height: 40px;
+	width: 250px;
+	height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+	outline: none;
+	overflow: hidden;
+}
+
+#traveller
+{
+	margin-left: 25px;
+	color: white;
+	font-size: 18px;
+	 
+}
+
+.radio
+{
+	
+	display: inline-block;
+	padding-right: 70px;
+	font-size: 16px;
+	margin-left: 25px;
+	margin-top: 15px;
+	color: white; 
+}
+
+.radio input{
+	width:30px;
+	height: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+	outline: none;
+}
+
+#terms_conditions
+{
+	margin-left: 32px;
+	color: white;
+	font-size: 18px;
+	height: 70px;
+}
+
+.tnclabel
+{
+	position: relative;
+	left: -15px;
+	top: -27px;
+	width: 200px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: white;
+}
+
+button
+{
+	background-color: #3BAF9F;
+	display: block;
+	margin: 20px 0px 0px 20px; 
+	text-align: center;
+	border-radius: 12px;
+	border: 2px solid #366473;
+	padding: 14px 110px;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	transition: 0.25px;
+	
+}
+button:hover {
+	background-color: #5390F5;
+}
+
+.errorphone
+{
+	position: relative;
+	left:-250px;
+	color: red;
+}
+
+.errorname
+{
+	color: red;
+	position:relative;
+	
+	font-size: 14px;
+	left: -150px;
+	top: -5px;
+}
+
+.errormail
+{
+	position: relative;
+	left:-300px;
+	color: red;
+}
+
+
+.errors{
+	position: relative;
+	left:-50px;
+	color: red;
+}
+
+.check
+{
+	position: relative;
+	color: red;
+}
